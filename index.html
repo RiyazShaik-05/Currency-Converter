@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="">
+            <p class="amount-text">Enter Amount</p>
+            <input type="number" name="amount-input" class="amount-input" placeholder="1">
+            <div class="from-to-containers">
+                <div class="from-container">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="respective-country-flag" class="from-image">
+                    <select name="" id="from-select"></select>
+                </div>
+                <i class="fa-solid fa-right-left" class="option-exchange-button"></i>
+                <div class="to-container">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="respective-country-flag" class="to-image">
+                    <select name="" id="to-select"></select>
+                </div>
+            </div>
+            
+            <p class="result-text"></p>
+            <button class="exchange-btn">Calculate exchange rate</button>
+        </form>
+    </div>
+    <footer>Note: API results may not be latest. Exchange rate may not be accurate to latest rates :D</footer>
+    <script src="script.js"></script>
+</body>
+</html>

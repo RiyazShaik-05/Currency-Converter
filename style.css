@@ -1,0 +1,98 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #283618;
+}
+
+footer{
+    color: #fff;
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+h2{
+    position: relative;
+    left: 10%;
+}
+.container{
+    border: 1px solid;
+    padding: 20px;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: #fefae0;
+}
+
+.amount-text{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.amount-input{
+    border-radius: 10px;
+    margin-top: 1rem;
+    height: 40px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #fff;
+}
+
+.from-to-containers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+img{
+    width: 2rem;
+}
+
+.from-container,.to-container{
+    display: flex;
+}
+
+select{
+    border-radius: 10px;
+    margin-left: 4px;
+    border: none;
+    width: 5rem;
+    outline: none;
+    cursor: pointer;
+}
+
+i{
+    margin-top: 0.7rem;
+}
+
+p{
+    font-size: 1.1rem;
+    margin-top: 1.4rem;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #bc6c25;
+    font-size: 1.2rem;
+    color: #fefae0;
+}
